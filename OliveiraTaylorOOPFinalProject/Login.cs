@@ -15,6 +15,12 @@ namespace OliveiraTaylorOOPFinalProject
         public Login()
         {
             InitializeComponent();
+
+            txtPassword.Text = "";
+            txtPassword.PasswordChar = '*';
+            txtPassword.MaxLength = 15;
         }
+
+        
     }
 }
