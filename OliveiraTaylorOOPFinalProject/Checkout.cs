@@ -17,5 +17,9 @@ namespace OliveiraTaylorOOPFinalProject
             InitializeComponent();
         }
 
+        private void Checkout_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

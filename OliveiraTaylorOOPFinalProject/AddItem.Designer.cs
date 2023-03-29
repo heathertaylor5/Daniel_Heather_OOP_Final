@@ -59,9 +59,9 @@
             this.grpProductType.Controls.Add(this.radPhoto);
             this.grpProductType.Controls.Add(this.radPainting);
             this.grpProductType.Location = new System.Drawing.Point(19, 24);
-            this.grpProductType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpProductType.Margin = new System.Windows.Forms.Padding(2);
             this.grpProductType.Name = "grpProductType";
-            this.grpProductType.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpProductType.Padding = new System.Windows.Forms.Padding(2);
             this.grpProductType.Size = new System.Drawing.Size(164, 110);
             this.grpProductType.TabIndex = 0;
             this.grpProductType.TabStop = false;
@@ -70,7 +70,7 @@
             // btnSelectType
             // 
             this.btnSelectType.Location = new System.Drawing.Point(43, 61);
-            this.btnSelectType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSelectType.Margin = new System.Windows.Forms.Padding(2);
             this.btnSelectType.Name = "btnSelectType";
             this.btnSelectType.Size = new System.Drawing.Size(68, 37);
             this.btnSelectType.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             this.radPhoto.AutoSize = true;
             this.radPhoto.Location = new System.Drawing.Point(5, 40);
-            this.radPhoto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radPhoto.Margin = new System.Windows.Forms.Padding(2);
             this.radPhoto.Name = "radPhoto";
             this.radPhoto.Size = new System.Drawing.Size(53, 17);
             this.radPhoto.TabIndex = 1;
@@ -93,7 +93,7 @@
             // 
             this.radPainting.AutoSize = true;
             this.radPainting.Location = new System.Drawing.Point(4, 17);
-            this.radPainting.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radPainting.Margin = new System.Windows.Forms.Padding(2);
             this.radPainting.Name = "radPainting";
             this.radPainting.Size = new System.Drawing.Size(63, 17);
             this.radPainting.TabIndex = 0;
@@ -115,7 +115,7 @@
             // txtCode
             // 
             this.txtCode.Location = new System.Drawing.Point(75, 30);
-            this.txtCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCode.Margin = new System.Windows.Forms.Padding(2);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(76, 20);
             this.txtCode.TabIndex = 2;
@@ -124,7 +124,7 @@
             // txtPrice
             // 
             this.txtPrice.Location = new System.Drawing.Point(74, 72);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(76, 20);
             this.txtPrice.TabIndex = 4;
@@ -144,7 +144,7 @@
             // txtDescription
             // 
             this.txtDescription.Location = new System.Drawing.Point(74, 114);
-            this.txtDescription.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(76, 20);
             this.txtDescription.TabIndex = 6;
@@ -164,7 +164,7 @@
             // txtNumInStock
             // 
             this.txtNumInStock.Location = new System.Drawing.Point(256, 30);
-            this.txtNumInStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNumInStock.Margin = new System.Windows.Forms.Padding(2);
             this.txtNumInStock.Name = "txtNumInStock";
             this.txtNumInStock.Size = new System.Drawing.Size(76, 20);
             this.txtNumInStock.TabIndex = 8;
@@ -184,7 +184,7 @@
             // txtDigitalOriginal
             // 
             this.txtDigitalOriginal.Location = new System.Drawing.Point(256, 72);
-            this.txtDigitalOriginal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDigitalOriginal.Margin = new System.Windows.Forms.Padding(2);
             this.txtDigitalOriginal.Name = "txtDigitalOriginal";
             this.txtDigitalOriginal.Size = new System.Drawing.Size(76, 20);
             this.txtDigitalOriginal.TabIndex = 10;
@@ -204,7 +204,7 @@
             // txtColourFrame
             // 
             this.txtColourFrame.Location = new System.Drawing.Point(256, 118);
-            this.txtColourFrame.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtColourFrame.Margin = new System.Windows.Forms.Padding(2);
             this.txtColourFrame.Name = "txtColourFrame";
             this.txtColourFrame.Size = new System.Drawing.Size(76, 20);
             this.txtColourFrame.TabIndex = 12;
@@ -237,9 +237,9 @@
             this.grpProductInfo.Controls.Add(this.lblDigitalOriginal);
             this.grpProductInfo.Controls.Add(this.label2);
             this.grpProductInfo.Location = new System.Drawing.Point(9, 158);
-            this.grpProductInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpProductInfo.Margin = new System.Windows.Forms.Padding(2);
             this.grpProductInfo.Name = "grpProductInfo";
-            this.grpProductInfo.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpProductInfo.Padding = new System.Windows.Forms.Padding(2);
             this.grpProductInfo.Size = new System.Drawing.Size(348, 197);
             this.grpProductInfo.TabIndex = 13;
             this.grpProductInfo.TabStop = false;
@@ -248,7 +248,7 @@
             // btnAddItem
             // 
             this.btnAddItem.Location = new System.Drawing.Point(142, 151);
-            this.btnAddItem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddItem.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.Size = new System.Drawing.Size(65, 42);
             this.btnAddItem.TabIndex = 13;
@@ -259,7 +259,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(216, 29);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(109, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -274,10 +274,11 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.grpProductInfo);
             this.Controls.Add(this.grpProductType);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddItem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddItem";
+            this.Load += new System.EventHandler(this.AddItem_Load);
             this.grpProductType.ResumeLayout(false);
             this.grpProductType.PerformLayout();
             this.grpProductInfo.ResumeLayout(false);
