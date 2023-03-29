@@ -16,5 +16,11 @@ namespace OliveiraTaylorOOPFinalProject
         {
             InitializeComponent();
         }
+
+        private void AddItem_Load(object sender, EventArgs e)
+        {
+            //Put the name of the students on the title
+            this.Text = "Daniel & Heathear";
+        }
     }
 }

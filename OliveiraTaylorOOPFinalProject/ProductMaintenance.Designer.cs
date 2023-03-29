@@ -49,7 +49,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(454, 10);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(109, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -60,7 +60,7 @@
             // 
             this.lstAllProducts.FormattingEnabled = true;
             this.lstAllProducts.Location = new System.Drawing.Point(9, 10);
-            this.lstAllProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstAllProducts.Margin = new System.Windows.Forms.Padding(2);
             this.lstAllProducts.Name = "lstAllProducts";
             this.lstAllProducts.Size = new System.Drawing.Size(413, 342);
             this.lstAllProducts.TabIndex = 4;
@@ -68,7 +68,7 @@
             // btnAddNewItem
             // 
             this.btnAddNewItem.Location = new System.Drawing.Point(454, 113);
-            this.btnAddNewItem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddNewItem.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddNewItem.Name = "btnAddNewItem";
             this.btnAddNewItem.Size = new System.Drawing.Size(109, 48);
             this.btnAddNewItem.TabIndex = 5;
@@ -85,9 +85,9 @@
             this.grpUpdateStock.Controls.Add(this.nudNumStock);
             this.grpUpdateStock.Controls.Add(this.btnAddStock);
             this.grpUpdateStock.Location = new System.Drawing.Point(425, 175);
-            this.grpUpdateStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpUpdateStock.Margin = new System.Windows.Forms.Padding(2);
             this.grpUpdateStock.Name = "grpUpdateStock";
-            this.grpUpdateStock.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpUpdateStock.Padding = new System.Windows.Forms.Padding(2);
             this.grpUpdateStock.Size = new System.Drawing.Size(166, 180);
             this.grpUpdateStock.TabIndex = 6;
             this.grpUpdateStock.TabStop = false;
@@ -96,7 +96,7 @@
             // btnRemoveStock
             // 
             this.btnRemoveStock.Location = new System.Drawing.Point(82, 133);
-            this.btnRemoveStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRemoveStock.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemoveStock.Name = "btnRemoveStock";
             this.btnRemoveStock.Size = new System.Drawing.Size(78, 43);
             this.btnRemoveStock.TabIndex = 6;
@@ -146,7 +146,7 @@
             // nudNumStock
             // 
             this.nudNumStock.Location = new System.Drawing.Point(38, 109);
-            this.nudNumStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudNumStock.Margin = new System.Windows.Forms.Padding(2);
             this.nudNumStock.Name = "nudNumStock";
             this.nudNumStock.Size = new System.Drawing.Size(90, 20);
             this.nudNumStock.TabIndex = 1;
@@ -154,7 +154,7 @@
             // btnAddStock
             // 
             this.btnAddStock.Location = new System.Drawing.Point(4, 133);
-            this.btnAddStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddStock.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddStock.Name = "btnAddStock";
             this.btnAddStock.Size = new System.Drawing.Size(74, 43);
             this.btnAddStock.TabIndex = 0;
@@ -170,10 +170,11 @@
             this.Controls.Add(this.btnAddNewItem);
             this.Controls.Add(this.lstAllProducts);
             this.Controls.Add(this.pictureBox2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ProductMaintenance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProductMaintenance";
+            this.Load += new System.EventHandler(this.ProductMaintenance_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.grpUpdateStock.ResumeLayout(false);
             this.grpUpdateStock.PerformLayout();

@@ -13,3 +13,18 @@ C:\0-Winter2022\Object Oriented Programming\Project\Daniel_Heather_OOP_Final\Oli
 C:\0-Winter2022\Object Oriented Programming\Project\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.csproj.CoreCompileInputs.cache
 C:\0-Winter2022\Object Oriented Programming\Project\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.exe
 C:\0-Winter2022\Object Oriented Programming\Project\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.pdb
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\bin\Debug\OliveiraTaylorOOPFinalProject.exe.config
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\bin\Debug\OliveiraTaylorOOPFinalProject.exe
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\bin\Debug\OliveiraTaylorOOPFinalProject.pdb
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.csproj.AssemblyReference.cache
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.csproj.SuggestedBindingRedirects.cache
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.AddItem.resources
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.Checkout.resources
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.Login.resources
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.Order.resources
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.ProductMaintenance.resources
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.Properties.Resources.resources
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.csproj.GenerateResource.cache
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.csproj.CoreCompileInputs.cache
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.exe
+C:\1-GitHub\Daniel_Heather_OOP_Final\OliveiraTaylorOOPFinalProject\obj\Debug\OliveiraTaylorOOPFinalProject.pdb

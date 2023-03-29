@@ -47,7 +47,7 @@
             // 
             this.lstInventory.FormattingEnabled = true;
             this.lstInventory.Location = new System.Drawing.Point(4, 144);
-            this.lstInventory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstInventory.Margin = new System.Windows.Forms.Padding(2);
             this.lstInventory.Name = "lstInventory";
             this.lstInventory.Size = new System.Drawing.Size(420, 134);
             this.lstInventory.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             this.lstCart.FormattingEnabled = true;
             this.lstCart.Location = new System.Drawing.Point(10, 17);
-            this.lstCart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstCart.Margin = new System.Windows.Forms.Padding(2);
             this.lstCart.Name = "lstCart";
             this.lstCart.Size = new System.Drawing.Size(135, 199);
             this.lstCart.TabIndex = 1;
@@ -66,9 +66,9 @@
             this.grpCart.Controls.Add(this.btnSubmitOrder);
             this.grpCart.Controls.Add(this.lstCart);
             this.grpCart.Location = new System.Drawing.Point(442, 102);
-            this.grpCart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpCart.Margin = new System.Windows.Forms.Padding(2);
             this.grpCart.Name = "grpCart";
-            this.grpCart.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpCart.Padding = new System.Windows.Forms.Padding(2);
             this.grpCart.Size = new System.Drawing.Size(148, 254);
             this.grpCart.TabIndex = 2;
             this.grpCart.TabStop = false;
@@ -77,7 +77,7 @@
             // btnSubmitOrder
             // 
             this.btnSubmitOrder.Location = new System.Drawing.Point(46, 220);
-            this.btnSubmitOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSubmitOrder.Margin = new System.Windows.Forms.Padding(2);
             this.btnSubmitOrder.Name = "btnSubmitOrder";
             this.btnSubmitOrder.Size = new System.Drawing.Size(58, 34);
             this.btnSubmitOrder.TabIndex = 2;
@@ -87,7 +87,7 @@
             // btnAddToOrder
             // 
             this.btnAddToOrder.Location = new System.Drawing.Point(174, 286);
-            this.btnAddToOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddToOrder.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddToOrder.Name = "btnAddToOrder";
             this.btnAddToOrder.Size = new System.Drawing.Size(82, 44);
             this.btnAddToOrder.TabIndex = 3;
@@ -97,7 +97,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(4, 27);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(419, 112);
             this.pictureBox1.TabIndex = 4;
@@ -109,9 +109,9 @@
             this.grpInventory.Controls.Add(this.btnAddToOrder);
             this.grpInventory.Controls.Add(this.lstInventory);
             this.grpInventory.Location = new System.Drawing.Point(10, 11);
-            this.grpInventory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpInventory.Margin = new System.Windows.Forms.Padding(2);
             this.grpInventory.Name = "grpInventory";
-            this.grpInventory.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpInventory.Padding = new System.Windows.Forms.Padding(2);
             this.grpInventory.Size = new System.Drawing.Size(428, 345);
             this.grpInventory.TabIndex = 4;
             this.grpInventory.TabStop = false;
@@ -121,7 +121,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(465, 11);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(109, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -136,10 +136,11 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.grpInventory);
             this.Controls.Add(this.grpCart);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Order";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Order";
+            this.Load += new System.EventHandler(this.Order_Load);
             this.grpCart.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpInventory.ResumeLayout(false);

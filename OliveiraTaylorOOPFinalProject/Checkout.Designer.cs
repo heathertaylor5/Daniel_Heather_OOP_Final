@@ -58,7 +58,7 @@
             // 
             this.lstOrdersInCart.FormattingEnabled = true;
             this.lstOrdersInCart.Location = new System.Drawing.Point(63, 37);
-            this.lstOrdersInCart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstOrdersInCart.Margin = new System.Windows.Forms.Padding(2);
             this.lstOrdersInCart.Name = "lstOrdersInCart";
             this.lstOrdersInCart.Size = new System.Drawing.Size(284, 147);
             this.lstOrdersInCart.TabIndex = 0;
@@ -74,9 +74,9 @@
             this.grpConfirmOrder.Controls.Add(this.label1);
             this.grpConfirmOrder.Controls.Add(this.lstOrdersInCart);
             this.grpConfirmOrder.Location = new System.Drawing.Point(10, 11);
-            this.grpConfirmOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpConfirmOrder.Margin = new System.Windows.Forms.Padding(2);
             this.grpConfirmOrder.Name = "grpConfirmOrder";
-            this.grpConfirmOrder.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpConfirmOrder.Padding = new System.Windows.Forms.Padding(2);
             this.grpConfirmOrder.Size = new System.Drawing.Size(413, 345);
             this.grpConfirmOrder.TabIndex = 1;
             this.grpConfirmOrder.TabStop = false;
@@ -85,7 +85,7 @@
             // txtCreditNum
             // 
             this.txtCreditNum.Location = new System.Drawing.Point(161, 243);
-            this.txtCreditNum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCreditNum.Margin = new System.Windows.Forms.Padding(2);
             this.txtCreditNum.Name = "txtCreditNum";
             this.txtCreditNum.Size = new System.Drawing.Size(186, 20);
             this.txtCreditNum.TabIndex = 7;
@@ -103,7 +103,7 @@
             // btnBack
             // 
             this.btnBack.Location = new System.Drawing.Point(63, 283);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(64, 46);
             this.btnBack.TabIndex = 5;
@@ -113,7 +113,7 @@
             // btnConfirmOrder
             // 
             this.btnConfirmOrder.Location = new System.Drawing.Point(282, 283);
-            this.btnConfirmOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConfirmOrder.Margin = new System.Windows.Forms.Padding(2);
             this.btnConfirmOrder.Name = "btnConfirmOrder";
             this.btnConfirmOrder.Size = new System.Drawing.Size(64, 46);
             this.btnConfirmOrder.TabIndex = 4;
@@ -124,7 +124,7 @@
             // 
             this.cboPaymentMethod.FormattingEnabled = true;
             this.cboPaymentMethod.Location = new System.Drawing.Point(161, 214);
-            this.cboPaymentMethod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboPaymentMethod.Margin = new System.Windows.Forms.Padding(2);
             this.cboPaymentMethod.Name = "cboPaymentMethod";
             this.cboPaymentMethod.Size = new System.Drawing.Size(186, 21);
             this.cboPaymentMethod.TabIndex = 3;
@@ -153,7 +153,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(455, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(109, 87);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -173,9 +173,9 @@
             this.grpProfile.Controls.Add(this.lblCustomerName);
             this.grpProfile.Cursor = System.Windows.Forms.Cursors.PanSW;
             this.grpProfile.Location = new System.Drawing.Point(428, 107);
-            this.grpProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpProfile.Margin = new System.Windows.Forms.Padding(2);
             this.grpProfile.Name = "grpProfile";
-            this.grpProfile.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpProfile.Padding = new System.Windows.Forms.Padding(2);
             this.grpProfile.Size = new System.Drawing.Size(164, 249);
             this.grpProfile.TabIndex = 3;
             this.grpProfile.TabStop = false;
@@ -282,10 +282,11 @@
             this.Controls.Add(this.grpProfile);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.grpConfirmOrder);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Checkout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Checkout";
+            this.Load += new System.EventHandler(this.Checkout_Load);
             this.grpConfirmOrder.ResumeLayout(false);
             this.grpConfirmOrder.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
