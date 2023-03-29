@@ -72,7 +72,11 @@
     <Compile Include="Order.Designer.cs">
       <DependentUpon>Order.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Person.cs" />
+=======
+    <Compile Include="Product.cs" />
+>>>>>>> Stashed changes
     <Compile Include="ProductMaintenance.cs">
       <SubType>Form</SubType>
     </Compile>
