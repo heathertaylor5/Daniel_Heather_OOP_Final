@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductMaintenance));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lstAllProducts = new System.Windows.Forms.ListBox();
             this.btnAddNewItem = new System.Windows.Forms.Button();
@@ -46,10 +47,12 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(454, 10);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(109, 87);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
@@ -169,6 +172,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ProductMaintenance";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProductMaintenance";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.grpUpdateStock.ResumeLayout(false);
